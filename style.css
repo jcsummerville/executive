@@ -2,7 +2,6 @@ html, body {
     height:100%;
     margin: 0;
     padding: 0px;
-
 }
 
 .main {
@@ -14,6 +13,7 @@ html, body {
     padding: 0px;
     text-align: center;
     vertical-align: middle;
+    overflow: hidden;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
 
 .slot-2 {
     background-color: rgb(245, 237, 222);
-    /*color: rgb(24, 13, 1);*/
+    color: rgb(1, 12, 20);
     height: 28%;
     margin: 0;
     padding: 0;
@@ -61,11 +61,16 @@ h1 {
 
 .slot-3 {
     background-color: rgb(241, 79, 4);
+    color: rgb(245,237,222);
     height: 16%;
+    font-size: 2vh;
+    line-height: 8vh;
 }
+
+
 .slot-4 {
     background-color: rgb(3, 77, 126);
-    color: rgb(245,237,222);
+    color: rgb(248, 207, 209);
     height: 28%;
     font-size: 10vh;
     line-height: 10vh;
@@ -79,14 +84,14 @@ h1 {
     left: 0;
     right:0;
     animation-name: scroll-left2;
-    animation-duration: 18s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
 }
 
 @keyframes scroll-right {
-    0%   {margin-left: -250%;}
+    0%   {margin-left: -300%;}
     100% {margin-left: 100%;}
 }
 
