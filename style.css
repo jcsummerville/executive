@@ -1,7 +1,7 @@
-html, body {
-    height:100%;
+* {
+
+    padding: 0;
     margin: 0;
-    padding: 0px;
 }
 
 .main {
@@ -16,104 +16,28 @@ html, body {
     overflow: hidden;
 }
 
-h1 {
-    font-family: 'Jost', sans-serif;
-    font-weight: 800;
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    font-family: 'Allura', cursive;
-    margin: 0;
-    padding: 0;
-}
-
 .slot-1 {
     background-color: rgb(239,162,146);
     color: rgb(228,245,61);
     height: 28%;
-    margin: 0;
-    padding: 0;
-    font-size: 17vh;
-    line-height: 28vh;
-    white-space: nowrap;
-}
-
-.slot-1 h1 {
-    animation-name: scroll-left;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 
 .slot-2 {
     background-color: rgb(245, 237, 222);
     color: rgb(1, 12, 20);
     height: 28%;
-    margin: 0;
-    padding: 0;
-    font-size: 17vh;
-    line-height: 28vh;
-    white-space: nowrap;
-}
-
-.slot-2 h1 {
-    animation-name: scroll-right;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
 }
 
 .slot-3 {
     background-color: rgb(241, 79, 4);
     color: rgb(245,237,222);
     height: 16%;
-    font-size: 3vh;
-    line-height: 8vh;
 }
-
-.slot-3 h1 {
-    font-size: 2.5vh;
-    line-height: 1.5vh;
-    padding-top: 3.5vh;
-}
-
 
 .slot-4 {
     background-color: rgb(3, 77, 126);
     color: rgb(248, 207, 209);
     height: 28%;
-    font-size: 10vh;
-    line-height: 10vh;
-    white-space: nowrap;
-    position: relative;
 }
 
-.slot-4 h1 {
-    position: absolute;
-    top: 7vh;
-    left: 0;
-    right:0;
-    animation-name: scroll-left2;
-    animation-duration: 25s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
-}
-
-@keyframes scroll-right {
-    0%   {margin-left: -300%;}
-    100% {margin-left: 100%;}
-}
-
-@keyframes scroll-left {
-    0%   {margin-left: 100%;}
-    100% {margin-left: -250%;}
-}
-
-@keyframes scroll-left2 {
-    0%   {margin-left: 140%;}
-    100% {margin-left: -250%;}
-}
 
