@@ -17,15 +17,14 @@ html, body {
 }
 
 h1 {
-    font-family: jost;
-    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-family: allura;
-    font-weight: 700;
+    font-family: 'Allura', cursive;
     margin: 0;
     padding: 0;
 }
