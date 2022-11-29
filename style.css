@@ -11,7 +11,7 @@ div {
 }
 
 .slot-1 {
-    background-color: rgb(163, 248, 6);
+    background-image: linear-gradient(rgb(238, 125, 125), rgb(243, 208, 8));
     color: white;
 }
 
