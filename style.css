@@ -60,7 +60,7 @@ h2 {
 
 .slot-2 h1 {
     animation-name: scroll-right;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -96,24 +96,24 @@ h2 {
     left: 0;
     right:0;
     animation-name: scroll-left2;
-    animation-duration: 25s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
 }
 
 @keyframes scroll-right {
-    0%   {margin-left: -300%;}
+    0%   {margin-left: -400%;}
     100% {margin-left: 100%;}
 }
 
 @keyframes scroll-left {
     0%   {margin-left: 100%;}
-    100% {margin-left: -250%;}
+    100% {margin-left: -350%;}
 }
 
 @keyframes scroll-left2 {
     0%   {margin-left: 140%;}
-    100% {margin-left: -250%;}
+    100% {margin-left: -400%;}
 }
 
